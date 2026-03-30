@@ -44,7 +44,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-[!Walkthrough](https://github.com/SwellEquation/Nasa-Media-Randomizer/blob/main/walkthrough.gif)
+![Walkthrough](https://github.com/SwellEquation/Nasa-Media-Randomizer/blob/main/walkthrough.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with https://www.freeconvert.com
@@ -55,7 +55,7 @@ GIF created with https://www.freeconvert.com
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The API key was stored in an .env file in the original directory of the project so it isn't exposed publically. 
 
 ## License
 
