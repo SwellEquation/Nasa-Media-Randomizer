@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  overflow-y: auto;
+}
+
+.left {
+  border-right: 1px solid #333;
+}
+
+.right {
+  border-left: 1px solid #333;
+}
+
+.main {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 20px;
+  background: #111;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+img, iframe {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.attributes p {
+  cursor: pointer;
+  background: #222;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 6px;
+}
+
+.attributes p:hover {
+  background: #444;
+}
+
+.sidebar p {
+  cursor: pointer;
+}
+
+.history-item {
+  margin-bottom: 15px;
+}
+
+.history-item img,
+.history-item iframe {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.history-item p {
+  font-size: 12px;
+}
